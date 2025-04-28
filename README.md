@@ -23,7 +23,7 @@ The objective was to convert a Figma design into a responsive HTML page using Bo
 ## Screenshots
 
 ### Desktop View
-![Desktop View](screenshots/deskdesktop-viewtop.png)
+![Desktop View](screenshots/deskdesktop-view.png)
 
 ### Mobile View
 ![Mobile View](screenshots/mobile-view.png)
