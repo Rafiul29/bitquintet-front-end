@@ -1,0 +1,95 @@
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #ED1C24;
+  --primary-bg-color: #161B33;
+  --secondary-bg-color:#030929;
+}
+
+/*   */
+*{
+  padding: 0;
+  outline: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Navbar  style start */
+.navbar {
+  background-color: var(--primary-bg-color);
+}
+
+/* Navbar toggle button */
+.navbar-toggler {
+  background-color: var(--primary-color);;
+  border: none;
+}
+
+/* Logo */
+.navbar .navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+/* Navbar links */
+.navbar-nav .nav-item .nav-link {
+  color: var(--primary-color) !important;
+}
+
+/* navbar subscription nutton */
+.navbar-nav .nav-item button {
+  background-color: var(--primary-bg-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 24px;
+  padding: 10px 36px;
+  color: var(--secondary-color) !important;
+}
+/* Navbar toggle button */
+.navbar-toggler {
+  background-color: var(--primary-color);
+  border: none;
+}
+.navbar-toggler-icon {
+  background-color: var(--primary-color);
+}
+
+/* Navbar  style end */
+
+
+/* Hero Section  style start */
+.hero-section{
+margin-top: 5rem;
+}
+.hero {
+  background: url('../images/hero-bg.png') no-repeat center center/cover;
+  height: 91.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card{
+  color: var(--primary-color);
+  background-color: var(--secondary-bg-color);
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #1D223F;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.icon-card{
+  background-color: #1D223F;
+}
+
+.divider {
+  border: 0;
+  border-top: 2px solid #ccc; 
+  flex-grow: 1; 
+  margin: 0 10px; 
+}
+
+/* Hero Section  style end */
