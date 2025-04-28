@@ -16,7 +16,7 @@ The objective was to convert a Figma design into a responsive HTML page using Bo
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Rafiul29/bitquintet-front-end.git
 ```
 2. Open the index.html file in your browser to view the project.
 
